@@ -8,7 +8,9 @@ import {
   Alert,
   Image,
   ScrollView,
+  FlatList
 } from 'react-native';
+
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
 // import TesseractOcr, {LANG_ENGLISH} from 'react-native-tesseract-ocr';
 
@@ -180,7 +182,9 @@ const Home = ({navigation}) => {
   //   }
   //   return result[index].description
   // }
+  const dataList = [{key:'1'},{key:'2'},{key:'3'},{key:'4'},{key:'5'}];
 
+ 
   return (
     <ScrollView>
       <SafeAreaView style={styles.container}>
@@ -209,6 +213,12 @@ const Home = ({navigation}) => {
           <Text>Entreprise : {title}</Text>
           <Text>Total Amount : {amount}</Text>
           <Text>Date: {date}</Text>
+          <Separator />
+          <FlatList
+          data={dataList}
+          renderItem={this.renderItem}
+          keyExtractor={(item,index) => index.toString()}
+          />
         <Button
           title="Continuer"
           onPress={() =>
