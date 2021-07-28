@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2FB54B016A8634806C8A5F49 /* libPods-invoiceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAA02580DCDF4ED39A0BC02 /* libPods-invoiceApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CCD3D3C0C07590D175610299 /* libPods-invoiceApp-invoiceAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06005B5BAE5E58A92A06761F /* libPods-invoiceApp-invoiceAppTests.a */; };
+		D3D8274C99002A4C58DB57E3 /* libPods-invoiceApp-invoiceAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5472B794C09900DC7E1B9A /* libPods-invoiceApp-invoiceAppTests.a */; };
+		DB1FC63DAD16D85938AED9BB /* libPods-invoiceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A0420963DD173675B54592 /* libPods-invoiceApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,19 @@
 		00E356EE1AD99517003FC87E /* invoiceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invoiceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* invoiceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = invoiceAppTests.m; sourceTree = "<group>"; };
-		029877BA2A4D3875E2A475A3 /* Pods-invoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp.release.xcconfig"; path = "Target Support Files/Pods-invoiceApp/Pods-invoiceApp.release.xcconfig"; sourceTree = "<group>"; };
-		06005B5BAE5E58A92A06761F /* libPods-invoiceApp-invoiceAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-invoiceApp-invoiceAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFD9B277363A4F4A98B685A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp-invoiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* invoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = invoiceApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = invoiceApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = invoiceApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = invoiceApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = invoiceApp/main.m; sourceTree = "<group>"; };
-		741938BC22CF8FA5BB210C6A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp-invoiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		7FAA02580DCDF4ED39A0BC02 /* libPods-invoiceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-invoiceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = invoiceApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97090EEB3814CD21F2C28887 /* Pods-invoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp.debug.xcconfig"; path = "Target Support Files/Pods-invoiceApp/Pods-invoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D9DD57F4542F0667567113CC /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp-invoiceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A787EF278B44E3045621AB0E /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp-invoiceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80A31034F13BA9C6BF25A28 /* Pods-invoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp.debug.xcconfig"; path = "Target Support Files/Pods-invoiceApp/Pods-invoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A0420963DD173675B54592 /* libPods-invoiceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-invoiceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB88B4C28FBA75EA6B3EE43F /* Pods-invoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invoiceApp.release.xcconfig"; path = "Target Support Files/Pods-invoiceApp/Pods-invoiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		EA5472B794C09900DC7E1B9A /* libPods-invoiceApp-invoiceAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-invoiceApp-invoiceAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD3D3C0C07590D175610299 /* libPods-invoiceApp-invoiceAppTests.a in Frameworks */,
+				D3D8274C99002A4C58DB57E3 /* libPods-invoiceApp-invoiceAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB54B016A8634806C8A5F49 /* libPods-invoiceApp.a in Frameworks */,
+				DB1FC63DAD16D85938AED9BB /* libPods-invoiceApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7FAA02580DCDF4ED39A0BC02 /* libPods-invoiceApp.a */,
-				06005B5BAE5E58A92A06761F /* libPods-invoiceApp-invoiceAppTests.a */,
+				B5A0420963DD173675B54592 /* libPods-invoiceApp.a */,
+				EA5472B794C09900DC7E1B9A /* libPods-invoiceApp-invoiceAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* invoiceAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				853D00FC873117A1C3AEAC23 /* Pods */,
+				C7E253876FA3581F0174FB4E /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,14 +137,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		853D00FC873117A1C3AEAC23 /* Pods */ = {
+		C7E253876FA3581F0174FB4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97090EEB3814CD21F2C28887 /* Pods-invoiceApp.debug.xcconfig */,
-				029877BA2A4D3875E2A475A3 /* Pods-invoiceApp.release.xcconfig */,
-				D9DD57F4542F0667567113CC /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */,
-				741938BC22CF8FA5BB210C6A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */,
+				A80A31034F13BA9C6BF25A28 /* Pods-invoiceApp.debug.xcconfig */,
+				CB88B4C28FBA75EA6B3EE43F /* Pods-invoiceApp.release.xcconfig */,
+				A787EF278B44E3045621AB0E /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */,
+				0AFD9B277363A4F4A98B685A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "invoiceAppTests" */;
 			buildPhases = (
-				A05EE90F3E10CE6206BF190C /* [CP] Check Pods Manifest.lock */,
+				DDB06CEDEFDBF1820A90E218 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C14F1A3BC9C018CD8855A7E4 /* [CP] Embed Pods Frameworks */,
-				0C32BF109CBB606121071B36 /* [CP] Copy Pods Resources */,
+				41F09BEF84C66E48ED904410 /* [CP] Embed Pods Frameworks */,
+				C53B5F25D9ECD44E3FC18B2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "invoiceApp" */;
 			buildPhases = (
-				21B1B839CB99C7637C423F24 /* [CP] Check Pods Manifest.lock */,
+				9D01B9243C03763C7E4D2555 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E5F7C4D2CA3EA8B16B622FF5 /* [CP] Embed Pods Frameworks */,
-				B5D5C0A2FD42EF9530EFF13D /* [CP] Copy Pods Resources */,
+				44D19A526490D380E757F7DA /* [CP] Embed Pods Frameworks */,
+				0216D70D583221ABB195D25E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,24 +265,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0C32BF109CBB606121071B36 /* [CP] Copy Pods Resources */ = {
+		0216D70D583221ABB195D25E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		21B1B839CB99C7637C423F24 /* [CP] Check Pods Manifest.lock */ = {
+		41F09BEF84C66E48ED904410 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44D19A526490D380E757F7DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D01B9243C03763C7E4D2555 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +338,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A05EE90F3E10CE6206BF190C /* [CP] Check Pods Manifest.lock */ = {
+		C53B5F25D9ECD44E3FC18B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB06CEDEFDBF1820A90E218 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,57 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B5D5C0A2FD42EF9530EFF13D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C14F1A3BC9C018CD8855A7E4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp-invoiceAppTests/Pods-invoiceApp-invoiceAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5F7C4D2CA3EA8B16B622FF5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invoiceApp/Pods-invoiceApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -428,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9DD57F4542F0667567113CC /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */;
+			baseConfigurationReference = A787EF278B44E3045621AB0E /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -455,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 741938BC22CF8FA5BB210C6A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */;
+			baseConfigurationReference = 0AFD9B277363A4F4A98B685A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -479,12 +480,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97090EEB3814CD21F2C28887 /* Pods-invoiceApp.debug.xcconfig */;
+			baseConfigurationReference = A80A31034F13BA9C6BF25A28 /* Pods-invoiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8435H2924R;
+				DEVELOPMENT_TEAM = CX78AB9QKF;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = invoiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +497,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = salavudeen;
+				PRODUCT_BUNDLE_IDENTIFIER = melvyn.mercier;
 				PRODUCT_NAME = invoiceApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -506,12 +507,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029877BA2A4D3875E2A475A3 /* Pods-invoiceApp.release.xcconfig */;
+			baseConfigurationReference = CB88B4C28FBA75EA6B3EE43F /* Pods-invoiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8435H2924R;
+				DEVELOPMENT_TEAM = CX78AB9QKF;
 				INFOPLIST_FILE = invoiceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,7 +523,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = salavudeen;
+				PRODUCT_BUNDLE_IDENTIFIER = melvyn.mercier;
 				PRODUCT_NAME = invoiceApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
