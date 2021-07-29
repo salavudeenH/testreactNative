@@ -117,7 +117,7 @@ const Home = ({ navigation }) => {
 
         //On récupère la liste des en-tête et la liste des détails
         invoice.details = FilterDetails(details);
-
+        console.log(invoice.details);
         //On assigne les données trouvées
         setTotal(invoice.total);
         setPercentTVA(invoice.tva[0].match(/((\d{1,3} )*\d+([\.,]\d{1,2})?)/gis)[0]);
@@ -194,7 +194,7 @@ const Home = ({ navigation }) => {
 
       let endHeader = false;
       
-      for (let i = 0; i < details.length - 1; i++) {
+      for (let i = 0; i < details.length; i++) {
         //On récupère la valeur à analyser
         let value = details[i];
         //Si la valeur n'est pas un entier et que les headers ne sont pas terminé
@@ -207,7 +207,7 @@ const Home = ({ navigation }) => {
           endHeader = true;
           //Si l'index modulo le nombre de header == 0
           if(i % headers.length == 0){
-            //Si la n'est pas undefined
+            //Si la ligne n'est pas undefined
             if(line != undefined)
               //On ajoute la ligne au tableau de données
               data.push(line)
