@@ -2,7 +2,6 @@ export class Invoice{
     title;
     total;
     totalHT;
-    detailsTitles;
-    detailsList;
+    details;
     tva;
 }

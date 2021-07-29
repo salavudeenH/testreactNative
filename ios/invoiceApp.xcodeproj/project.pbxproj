@@ -145,7 +145,6 @@
 				A787EF278B44E3045621AB0E /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */,
 				0AFD9B277363A4F4A98B685A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -432,6 +431,8 @@
 			baseConfigurationReference = A787EF278B44E3045621AB0E /* Pods-invoiceApp-invoiceAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = CX78AB9QKF;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -459,7 +460,9 @@
 			baseConfigurationReference = 0AFD9B277363A4F4A98B685A /* Pods-invoiceApp-invoiceAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = CX78AB9QKF;
 				INFOPLIST_FILE = invoiceAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
